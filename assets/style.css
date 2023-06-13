@@ -6,6 +6,7 @@ body {
 }
 
 header {
+  /* Added a background image here to go behind selfie  */
   background-image: url("SOADlogoblack.png");
   background-size: contain;
   padding: 20px;
@@ -14,6 +15,7 @@ header {
 }
 
 header img {
+  /* added a selfie of myself in the center at the top  */
   width: 200px;
 }
 
@@ -61,12 +63,14 @@ section {
   border-radius: 5px;
   background-color: #360707;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  /* added a cool transition effect for style when you hover  */
   transition: background-color 0.3s ease;
   cursor: pointer;
   color: #bbb0b0;
 }
 
 section:hover {
+  /* had the color scheme switch places with the font color and background  */
   background-color: #E0E0E0;
   color:#360707
 }
