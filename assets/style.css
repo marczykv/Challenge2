@@ -6,7 +6,8 @@ body {
 }
 
 header {
-  background-color: #555;
+  background-image: url("SOADlogoblack.png");
+  background-size: contain;
   padding: 20px;
   text-align: center;
   color: #fff;
@@ -20,6 +21,8 @@ header h1 {
   font-size: 24px;
   font-weight: bold;
   margin-bottom: 10px;
+  padding: 20px;
+  background-color: #333;
 }
 
 nav {
@@ -60,20 +63,17 @@ section {
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   transition: background-color 0.3s ease;
   cursor: pointer;
+  color: #bbb0b0;
 }
 
 section:hover {
   background-color: #E0E0E0;
+  color:#360707
 }
 
 section h2 {
   font-size: 20px;
-  color: #333;
   margin-bottom: 10px;
-}
-
-section p {
-  color: #555;
 }
 
 footer {
