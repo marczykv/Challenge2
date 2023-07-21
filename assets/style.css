@@ -1,3 +1,6 @@
+/* CSS */
+
+/* Global styles for the entire body */
 body {
   font-family: Arial, sans-serif;
   background-color: #F5F5F5;
@@ -5,20 +8,25 @@ body {
   line-height: 1.6;
 }
 
+/* Styles for the header section */
 header {
-  /* Added a background image here to go behind selfie  */
   background-image: url("SOADlogoblack.png");
   background-size: contain;
   padding: 20px;
   text-align: center;
   color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
+/* Styles for the selfie image in the header */
 header img {
-  /* added a selfie of myself in the center at the top  */
   width: 200px;
+  max-width: 100%;
 }
 
+/* Styles for the h1 element in the header */
 header h1 {
   font-size: 24px;
   font-weight: bold;
@@ -27,59 +35,75 @@ header h1 {
   background-color: #333;
 }
 
+/* Styles for the navigation bar */
 nav {
   background-color: #fff;
   padding: 10px;
   border-bottom: 1px solid #ddd;
+  display: flex;
+  justify-content: center;
 }
 
+/* Styles for the unordered list in the navigation bar */
 nav ul {
   list-style-type: none;
   text-align: center;
+  display: flex;
+  justify-content: center;
 }
 
+/* Styles for each list item (link) in the navigation bar */
 nav ul li {
   display: inline-block;
   margin-right: 10px;
 }
 
+/* Styles for the links in the navigation bar */
 nav ul li a {
   text-decoration: none;
   color: #555;
   padding: 5px;
 }
 
+/* Styles for the main content section */
 main {
   padding: 20px;
   background-color: #fff;
   margin-bottom: 20px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
+/* Styles for each section in the main content */
 section {
   margin-bottom: 20px;
   padding: 20px;
   border-radius: 5px;
   background-color: #360707;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  /* added a cool transition effect for style when you hover  */
   transition: background-color 0.3s ease;
   cursor: pointer;
   color: #bbb0b0;
+  max-width: 800px;
+  width: 100%;
 }
 
+/* Styles for each section when hovering over it */
 section:hover {
-  /* had the color scheme switch places with the font color and background  */
   background-color: #E0E0E0;
-  color:#360707
+  color: #360707;
 }
 
+/* Styles for h2 elements in each section */
 section h2 {
   font-size: 20px;
   margin-bottom: 10px;
 }
 
+/* Styles for the footer section */
 footer {
   background-color: #555;
   color: #fff;
@@ -87,14 +111,41 @@ footer {
   text-align: center;
 }
 
+/* Styles for the paragraph in the footer */
 footer p {
   margin: 0;
 }
 
+/* Styles for links */
 a {
   color: #555;
 }
 
+/* Styles for links when hovering over them */
 a:hover {
   color: #333;
+}
+
+/* Additional styles for the "Future Plans" section */
+#future-plans {
+  background-color: #330707;
+  color: #bbb0b0;
+  text-align: center;
+  transition: background-color 0.3s ease; /* Added transition for hover effect */
+  cursor: pointer;
+}
+
+#future-plans:hover {
+  background-color: #E0E0E0; /* Color change on hover */
+  color: #360707; /* Text color change on hover */
+}
+
+#future-plans h2 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+#future-plans p {
+  font-size: 16px;
+  line-height: 1.6;
 }
