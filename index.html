@@ -2,39 +2,62 @@
 <html>
 <head>
   <title>My Portfolio</title>
-   <!-- changed the path so it doesnt pull from local directory  -->
   <link rel="stylesheet" type="text/css" href="assets/style.css">
 </head>
 <body>
   <header>
-    <img src="assets/selfie.jpg">
+    <img src="assets/selfie.jpg" alt="My Selfie">
     <h1>My Portfolio - Victor Marczyk</h1>
- </header>
+  </header>
 
   <nav>
     <ul>
-      <li><a href="#about">About</a></li>
+      <li><a href="#bio">About</a></li>
       <li><a href="#projects">Projects</a></li>
-      <li><a href="#contact">Contact</a></li>
+      <li><a href="#hobbies">Hobbies</a></li>
+      <li><a href="#future-plans">Future Plans</a></li> <!-- Added link to the new section -->
     </ul>
   </nav>
 
   <main>
-    <section id="about">
-      <h2>About Me</h2>
-      <p>Personal Banker at Penn Community Bank</p>
-      <p>Always tired</p>
-      <p>Always hungry</p>
+    <section id="bio">
+      <h2>Bio</h2>
+      <p>I'm Victor Marczyk, a Personal Banker at Penn Community Bank. When I'm not working, I enjoy coding and building web projects. I'm passionate about learning new technologies and creating engaging user experiences. In my free time, you'll find me gaming, collecting vinyl records, experimenting with new recipes, and spending time with animals.</p>
     </section>
 
     <section id="projects">
       <h2>Projects</h2>
-      <p>Getting my bootcamp certificate</p>
+      <div class="container">
+        <div class="card">
+          <h3>Project 1 - Recipe Finder</h3>
+          <p>Utilizes API's from Edamam to implement a recipe finder with quick and easy navigation.
+            <a href="https://albyhua.github.io/ProjectOne/">https://albyhua.github.io/ProjectOne/</a>
+          </p>
+        </div>
+        <div class="card">
+          <h3>Project 2 - Placeholder</h3>
+          <p>Description of project 2...</p>
+        </div>
+        <div class="card">
+          <h3>Project 3 - Placeholder</h3>
+          <p>Description of project 3...</p>
+        </div>
+        <div class="card">
+          <h3>Project 4 - Placeholder</h3>
+          <p>Description of project 4...</p>
+        </div>
+      </div>
     </section>
 
-    <section id="contact">
+    <section id="hobbies">
       <h2>Hobbies</h2>
       <p>Gaming, Vinyls, Cooking, Animals</p>
+    </section>
+
+    <!-- New section: Future Plans -->
+    <section id="future-plans">
+      <h2>Future Plans</h2>
+      <p>In the near future, I plan to advance my coding skills by enrolling in specialized web development courses and attending coding workshops. I am also considering contributing to open-source projects to gain practical experience and collaborate with other developers in the industry. Ultimately, my goal is to become a full-stack web developer and work on exciting projects that make a positive impact on people's lives.</p>
     </section>
   </main>
 
